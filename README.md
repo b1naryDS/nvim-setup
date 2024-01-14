@@ -1,3 +1,5 @@
+stolen preset from primeagen, adjusted for my taste
+
 ### ThePrimeagen's init.lua
 Prerequisite: install [ripgrep](https://github.com/BurntSushi/ripgrep).
 
