@@ -24,7 +24,7 @@ vim.keymap.set("n", "Q", "<nop>") -- Disable the Ex mode triggered by Shift-q
 
 vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>") -- Open tmux sessionizer in a new tmux window
 
-vim.keymap.set("n", "<leader>f", vim.lsp.buf.format) -- Format the current buffer using LSP
+vim.keymap.set("n", "<leader>f", "<cmd>Format<CR>") -- Format the current buffer using LSP
 
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz") -- Move to the next quickfix item and center the cursor line
 vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz") -- Move to the previous quickfix item and center the cursor line
